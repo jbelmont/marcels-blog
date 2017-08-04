@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Software Musings</title>
+    <link>https://example.com/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Software Musings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jean-Marcel Belmont</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Containerized Golang Applications (with Vue.js) </title>
+      <link>https://example.com/talk/modern-web-golang-docker/</link>
+      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/talk/modern-web-golang-docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building and Testing ReactJS apps</title>
+      <link>https://example.com/talk/building-and-testing-reactjs-apps/</link>
+      <pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/talk/building-and-testing-reactjs-apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a European Bakery Web Application with React.js and Node.js</title>
+      <link>https://example.com/talk/raleigh-code-camp/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/talk/raleigh-code-camp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a Web Application with React.JS and Node.JS</title>
+      <link>https://example.com/talk/modern-web-node-react/</link>
+      <pubDate>Mon, 24 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/talk/modern-web-node-react/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

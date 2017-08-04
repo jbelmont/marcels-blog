@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Musings</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Software Musings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jean-Marcel Belmont</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://example.com/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/about/</guid>
+      <description>Biography Jean-Marcel Belmont is a Software Engineer at Genesys. He is an organizer of 3 different meetups. He is also a former 82nd Airborne Paratrooper and combat veteran. He enjoys teaching others about Software Craftsmanship and spending time with his beautiful family. He loves nature and spending time learning new things in technology.</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://example.com/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://example.com/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshops</title>
+      <link>https://example.com/home/workshops/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/workshops/</guid>
+      <description>I am an organizer of 3 different workshops</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://example.com/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Review of the Science Of Great UI</title>
+      <link>https://example.com/post/a-review-of-science-of-great-ui/</link>
+      <pubDate>Tue, 01 Aug 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/a-review-of-science-of-great-ui/</guid>
+      <description>The Science of Great UI Review This repository is a review of Mark Miller&amp;rsquo;s Course (The Science of Great UI)
+ Introduction Converting Light into Understanding Certainty, Ambiguity, Context Grouping Symbols Cognitive Load Granularity Visual Search Background and Foreground (part 1) Noise, Weak Signal, and Clarity Recognition vs. Recall, Orienteering, and Paths Responsiveness &amp;amp; The Feedback Loop Discoverability Wrapping Up Efficiency in Thought and Motion Resources Personal Thoughts Purchase the Course  Introduction  Mark Miller discusses high level concepts that the course will review Miller also talks about a concept called Dark Design patterns very briefly  Converting Light into Understanding  Interesting facts about the eye and brain are discussed The fovea is responsible for sharp central vision (also called foveal vision)  Necessary in humans for activities where visual detail is of primary importance, such as reading and driving  Rods in Human eye  120 Million  Cones in Human eye  7 million  Fovea and rapid eye movement help make a visual field   Most of what we think is true is a series of shortcuts designed to keep us alive</description>
+    </item>
+    
+    <item>
+      <title>Containerized Golang Applications (with Vue.js) </title>
+      <link>https://example.com/talk/modern-web-golang-docker/</link>
+      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/talk/modern-web-golang-docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Testing Workshop</title>
+      <link>https://example.com/workshops/code_craftsmanship_saturdays/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/workshops/code_craftsmanship_saturdays/</guid>
+      <description>Embed your slides or video here using shortcodes. Further details can easily be added using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Building and Testing ReactJS apps</title>
+      <link>https://example.com/talk/building-and-testing-reactjs-apps/</link>
+      <pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/talk/building-and-testing-reactjs-apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a European Bakery Web Application with React.js and Node.js</title>
+      <link>https://example.com/talk/raleigh-code-camp/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/talk/raleigh-code-camp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a Web Application with React.JS and Node.JS</title>
+      <link>https://example.com/talk/modern-web-node-react/</link>
+      <pubDate>Mon, 24 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/talk/modern-web-node-react/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
