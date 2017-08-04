@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshops on Software Musings</title>
-    <link>https://example.com/workshops/</link>
+    <link>https://jbelmont.github.io/workshops/</link>
     <description>Recent content in Workshops on Software Musings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Software Testing Workshop</title>
-      <link>https://example.com/workshops/code_craftsmanship_saturdays/</link>
+      <link>https://jbelmont.github.io/workshops/code_craftsmanship_saturdays/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/workshops/code_craftsmanship_saturdays/</guid>
+      <guid>https://jbelmont.github.io/workshops/code_craftsmanship_saturdays/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>

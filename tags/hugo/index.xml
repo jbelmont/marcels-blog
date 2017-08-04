@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Software Musings</title>
-    <link>https://example.com/tags/hugo/</link>
+    <link>https://jbelmont.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on Software Musings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>A Review of the Science Of Great UI</title>
-      <link>https://example.com/post/a-review-of-science-of-great-ui/</link>
+      <link>https://jbelmont.github.io/post/a-review-of-science-of-great-ui/</link>
       <pubDate>Tue, 01 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/a-review-of-science-of-great-ui/</guid>
+      <guid>https://jbelmont.github.io/post/a-review-of-science-of-great-ui/</guid>
       <description>
 
 &lt;h1 id=&#34;the-science-of-great-ui-review&#34;&gt;The Science of Great UI Review&lt;/h1&gt;
