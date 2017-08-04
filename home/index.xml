@@ -8,54 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jean-Marcel Belmont</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://example.com/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title></title>
-      <link>https://example.com/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/home/about/</guid>
-      <description>Biography Jean-Marcel Belmont is a Software Engineer at Genesys. He is an organizer of 3 different meetups. He is also a former 82nd Airborne Paratrooper and combat veteran. He enjoys teaching others about Software Craftsmanship and spending time with his beautiful family. He loves nature and spending time learning new things in technology.</description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://example.com/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Posts</title>
-      <link>https://example.com/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Workshops</title>
-      <link>https://example.com/home/workshops/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/home/workshops/</guid>
-      <description>I am an organizer of 3 different workshops</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://example.com/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/home/contact/</guid>
-      <description></description>
-    </item>
+    <atom:link href="/home/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

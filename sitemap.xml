@@ -1,114 +1,142 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://example.com/home/about/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/post/a-review-of-science-of-great-ui/</loc>
+      <lastmod>2017-08-01T12:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/home/talks/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/talk/modern-web-golang-docker/</loc>
+      <lastmod>2017-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/home/posts/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/home/workshops/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/post/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/home/contact/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/talk/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/post/a-review-of-science-of-great-ui/</loc>
-    <lastmod>2017-08-01T12:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/workshops/code_craftsmanship_saturdays/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/talk/modern-web-golang-docker/</loc>
-    <lastmod>2017-07-25T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/workshops/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/tags/academic/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/talk/building-and-testing-reactjs-apps/</loc>
+      <lastmod>2016-12-07T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/talk/raleigh-code-camp/</loc>
+      <lastmod>2016-10-29T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/talk/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/talk/modern-web-node-react/</loc>
+      <lastmod>2016-10-24T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/workshops/code_craftsmanship_saturdays/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/workshops/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/tags/hugo/</loc>
+      <lastmod>2017-08-01T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/talk/building-and-testing-reactjs-apps/</loc>
-    <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/talk/raleigh-code-camp/</loc>
-    <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://example.com/talk/modern-web-node-react/</loc>
-    <lastmod>2016-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/home/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/hugo/</loc>
-    <lastmod>2017-08-01T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/publication_types/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://example.com/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

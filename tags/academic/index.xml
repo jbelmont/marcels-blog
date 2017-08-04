@@ -8,9 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jean-Marcel Belmont</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://example.com/tags/academic/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/tags/academic/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Review of the Science Of Great UI</title>
@@ -18,8 +16,284 @@
       <pubDate>Tue, 01 Aug 2017 12:00:00 +0000</pubDate>
       
       <guid>https://example.com/post/a-review-of-science-of-great-ui/</guid>
-      <description>The Science of Great UI Review This repository is a review of Mark Miller&amp;rsquo;s Course (The Science of Great UI)
- Introduction Converting Light into Understanding Certainty, Ambiguity, Context Grouping Symbols Cognitive Load Granularity Visual Search Background and Foreground (part 1) Noise, Weak Signal, and Clarity Recognition vs. Recall, Orienteering, and Paths Responsiveness &amp;amp; The Feedback Loop Discoverability Wrapping Up Efficiency in Thought and Motion Resources Personal Thoughts Purchase the Course  Introduction  Mark Miller discusses high level concepts that the course will review Miller also talks about a concept called Dark Design patterns very briefly  Converting Light into Understanding  Interesting facts about the eye and brain are discussed The fovea is responsible for sharp central vision (also called foveal vision)  Necessary in humans for activities where visual detail is of primary importance, such as reading and driving  Rods in Human eye  120 Million  Cones in Human eye  7 million  Fovea and rapid eye movement help make a visual field   Most of what we think is true is a series of shortcuts designed to keep us alive</description>
+      <description>
+
+&lt;h1 id=&#34;the-science-of-great-ui-review&#34;&gt;The Science of Great UI Review&lt;/h1&gt;
+
+&lt;p&gt;This repository is a review of Mark Miller&amp;rsquo;s Course (The Science of Great UI)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#converting-light-into-understanding&#34;&gt;Converting Light into Understanding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#certainty-,-ambiguity-,-context&#34;&gt;Certainty, Ambiguity, Context&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#grouping&#34;&gt;Grouping&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#symbols&#34;&gt;Symbols&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cognitive-load&#34;&gt;Cognitive Load&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#granularity&#34;&gt;Granularity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#visual-search&#34;&gt;Visual Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#background-and-foreground-part-1&#34;&gt;Background and Foreground (part 1)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#noise-,-weak-signal-,-and-clarity&#34;&gt;Noise, Weak Signal, and Clarity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#recognition-vs.-recall-,-orienteering-,-and-paths&#34;&gt;Recognition vs. Recall, Orienteering, and Paths&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#responsiveness-&amp;amp;-the-feedback-loop&#34;&gt;Responsiveness &amp;amp; The Feedback Loop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#discoverability&#34;&gt;Discoverability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#wrapping-up-efficiency-in-thought-and-motion&#34;&gt;Wrapping Up Efficiency in Thought and Motion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#personal-thoughts&#34;&gt;Personal Thoughts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#purchase-the-course&#34;&gt;Purchase the Course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mark Miller discusses high level concepts that the course will review&lt;/li&gt;
+&lt;li&gt;Miller also talks about a concept called Dark Design patterns very briefly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;converting-light-into-understanding&#34;&gt;Converting Light into Understanding&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Interesting facts about the eye and brain are discussed&lt;/li&gt;
+&lt;li&gt;The fovea is responsible for sharp central vision (also called foveal vision)
+
+&lt;ul&gt;
+&lt;li&gt;Necessary in humans for activities where visual detail is of primary importance, such as reading and driving&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Rods in Human eye
+
+&lt;ul&gt;
+&lt;li&gt;120 Million&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Cones in Human eye
+
+&lt;ul&gt;
+&lt;li&gt;7 million&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Fovea and rapid eye movement help make a visual field&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Most of what we think is true is a series of shortcuts designed to keep us alive&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;certainty-ambiguity-context&#34;&gt;Certainty, Ambiguity, Context&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ambiguity makes &lt;strong&gt;certainty&lt;/strong&gt; impossible&lt;/li&gt;
+&lt;li&gt;Sufficient context is the cure for ambiguity&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Blivet&lt;/strong&gt; Anti-pattern happens when an ambiguous presentation is adjoined by conflicting &lt;strong&gt;context&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;To fix the Blivet Anti-pattern, remove the conflicting &lt;strong&gt;context&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RTFM&lt;/strong&gt; (Read the Freaking Manual) design smell occurs when there is excessive/redundant instructions on how to use (or not use) the UI.&lt;/li&gt;
+&lt;li&gt;When the RTFM design smell is present, see if the UI can be &lt;strong&gt;simplified&lt;/strong&gt; (to no longer need the instructions).&lt;/li&gt;
+&lt;li&gt;If you can&amp;rsquo;t fix the RTFM design smell, edit the instructions to use &lt;strong&gt;fewer&lt;/strong&gt; words.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;grouping&#34;&gt;Grouping&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grouping is something the mind naturally wants to do
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s part of our attempts to reduce complexity&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s like a natural compression algorithm in our head&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;We can group in a variety of ways to make it easier for humans
+
+&lt;ul&gt;
+&lt;li&gt;Containers&lt;/li&gt;
+&lt;li&gt;Proximity&lt;/li&gt;
+&lt;li&gt;Color (opacity, brightness, saturation)&lt;/li&gt;
+&lt;li&gt;Symmetry&lt;/li&gt;
+&lt;li&gt;Continuity (along a continuous line or curve)&lt;/li&gt;
+&lt;li&gt;Shape&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;symbols&#34;&gt;Symbols&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A simple image that represents something bigger, like an idea&lt;/li&gt;
+&lt;li&gt;Complex detailed symbols take more time to parse than simple ones&lt;/li&gt;
+&lt;li&gt;To make it easier to &lt;strong&gt;recognize&lt;/strong&gt; symbols, they should be &lt;strong&gt;distinct&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Our minds have a huge capacity to associate meaning to symbols
+
+&lt;ul&gt;
+&lt;li&gt;Consider the alphabet&lt;/li&gt;
+&lt;li&gt;In english, 52 letters (Upper and Lower characters)&lt;/li&gt;
+&lt;li&gt;In Chinese roughly 30,000 to 80,0000 characters&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cognitive-load&#34;&gt;Cognitive Load&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sharp corners seem to inspire a slightly higher cognitive load in the brain.&lt;/li&gt;
+&lt;li&gt;We tend to see sharp corners as more salient &lt;strong&gt;(important)&lt;/strong&gt; than obtuse corners.&lt;/li&gt;
+&lt;li&gt;Use sharp corners for important corners &lt;strong&gt;(a point)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Use rounded corners for everything else.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;granularity&#34;&gt;Granularity&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;We can increase overall message capacity by &lt;strong&gt;combining&lt;/strong&gt; channels&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This increases channel bit capacity, but it is not an additive operation.&lt;/li&gt;
+&lt;li&gt;(Other limits on our ability to handle complexity can also be at play)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We may be able to reduce communication errors by:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Adding &lt;strong&gt;redundant channels&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Adding &lt;strong&gt;reference points&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Parts of Speech:
+
+&lt;ul&gt;
+&lt;li&gt;Nouns&lt;/li&gt;
+&lt;li&gt;Pronouns&lt;/li&gt;
+&lt;li&gt;Adjectives&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Channel capacity limits will be a constraining force on other guidelines.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;visual-search&#34;&gt;Visual Search&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sampling Density inside the fovea is high.&lt;/li&gt;
+&lt;li&gt;As we move farther from the fovea:
+
+&lt;ul&gt;
+&lt;li&gt;Sampling density diminishes&lt;/li&gt;
+&lt;li&gt;We lose color perception&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Peripheral vision detects motion and helps you balance and move through space.&lt;/li&gt;
+&lt;li&gt;Our brains can search the entire visual field using parallel processes.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Visual searches that heavily utilize our brain&amp;rsquo;s cognitive powers:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can operate only on a restricted portion of the visual field.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When designing icons:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Avoid thin lines and tiny details&lt;/li&gt;
+&lt;li&gt;Thick lines and filled shapes are more easily seen in the periphery.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;background-and-foreground-part-1&#34;&gt;Background and Foreground Part 1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Backgrounds:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Should be a solid color&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Emphasis should match &lt;strong&gt;Information Relevance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Constrained by Channel Capacity Limits&lt;/li&gt;
+&lt;li&gt;No more than 3 levels in the brightness channel&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Background Color&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Reference Points and Relativity&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Minimum Distance for Readability&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Color and Perceived Brightness&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;noise-weak-signal-and-clarity&#34;&gt;Noise, Weak Signal, and Clarity&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hindering Clarity are 2 things:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Visual Noise&lt;/li&gt;
+&lt;li&gt;Weak Signal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;recognition-vs-recall-orienteering-and-paths&#34;&gt;Recognition vs. Recall, Orienteering, and Paths&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Long Paths:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Are harder to remember (increased cognitive load, increased likelihood of mistakes)&lt;/li&gt;
+&lt;li&gt;Take longer to perform&lt;/li&gt;
+&lt;li&gt;More movement, more thought&lt;/li&gt;
+&lt;li&gt;Can induce fatigue&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Narrow paths:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Are harder to perform (require more precision)&lt;/li&gt;
+&lt;li&gt;Increase likelihood of mistakes&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Strenuous/steep paths:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Induce more fatigue&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Erratic paths (require context shifts)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;responsiveness-the-feedback-loop&#34;&gt;Responsiveness &amp;amp; The Feedback Loop&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mark Miller discusses a tool that he built which you can find at github &lt;a href=&#34;https://github.com/MillerMark/FeedbackLoopExplorer&#34; target=&#34;_blank&#34;&gt;HERE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;discoverability&#34;&gt;Discoverability&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Discoverability should be fluid and in parallel (avoid modal instruction)&lt;/li&gt;
+&lt;li&gt;Discoverability should be close in proximity to the content of interest.&lt;/li&gt;
+&lt;li&gt;Discoverability content should be concise and clear.&lt;/li&gt;
+&lt;li&gt;Use images (especially when the text can become more concise)&lt;/li&gt;
+&lt;li&gt;Live preview is the best discoverability&lt;/li&gt;
+&lt;li&gt;When you invent new UI:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Set aside time&lt;/strong&gt; in the &lt;strong&gt;schedule&lt;/strong&gt; to design and implement good discoverability.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;wrapping-up-efficiency-in-thought-and-motion&#34;&gt;Wrapping Up Efficiency in Thought and Motion&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Discuss how our brains work and interact with the world.&lt;/li&gt;
+&lt;li&gt;Some short clips with music are presented.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A pdf is given at the end with more condensed notes on all the videos is given.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;personal-thoughts&#34;&gt;Personal Thoughts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Very impressive collection of strategies are presented, I am very intrigued with all the findings and think others will enjoy the course as well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;purchase-the-course&#34;&gt;Purchase the Course&lt;/h2&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://app.deviq.com/courses/the-science-of-great-ui&#34; target=&#34;_blank&#34;&gt;Science of Great UI&lt;/a&gt; to purchase and watch this great course.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
