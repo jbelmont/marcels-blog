@@ -193,3 +193,5 @@ This repository is a review of Mark Miller's Course (The Science of Great UI)
 ## Purchase the Course
 
 Go to [Science of Great UI](https://app.deviq.com/courses/the-science-of-great-ui) to purchase and watch this great course.
+
+{{< tweet 891414055222685696 >}}

@@ -17,7 +17,19 @@ url_code = "https://github.com/jbelmont/paradiso-bakery-website"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/modernWebNode.png"
-caption = "My caption :smile:"
+image = ""
+caption = ""
 
 +++
+
+{{< youtube 5aOh4qCnqJc >}}
+
+A Modern Web Demonstration where I show how to create a Universal Javascript Application with Node.js and React.js
+
+I also demonstrate how to utilize webpack and debug React.js applications.
+
+{{< tweet 790751647630659585 >}}
+
+{{< tweet 791475202089627648 >}}
+
+{{< tweet 790725373415788544 >}}

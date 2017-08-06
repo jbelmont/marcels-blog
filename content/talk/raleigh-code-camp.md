@@ -16,7 +16,7 @@ url_code = "https://github.com/jbelmont/paradiso-bakery-website"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/codeCamp.jpg"
-caption = "My caption :smile:"
+image = "headers/codeCamp.png"
+caption = ""
 
 +++
