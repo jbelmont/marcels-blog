@@ -160,9 +160,9 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-name = "Workshops"
-url = "#workshops"
-weight = 4
+  name = "Projects"
+  url = "#projects"
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
