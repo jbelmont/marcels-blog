@@ -13,6 +13,7 @@ math = true
 url_pdf = ""
 url_slides = ""
 url_video = "https://www.youtube.com/watch?v=5aOh4qCnqJc"
+url_code = "https://github.com/jbelmont/paradiso-bakery-website"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
