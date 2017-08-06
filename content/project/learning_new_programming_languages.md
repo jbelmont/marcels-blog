@@ -6,11 +6,14 @@ date = "2017-04-08"
 title = "Learning New Programming Languages"
 
 # Project summary to display on homepage.
-summary = "Anybody who is curious about learning newer programming languages and would like a nice collaborative and interactive environment to do this. `https://www.meetup.com/Learning-New-Programming-Languages/`."
+summary = "A Meetup to Learn New Programming Languages"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["code-craftsmanship-saturdays", "learning-new-programming-languages", "papers-we-love"]`
 tags = ["learning-new-programming-languages"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = "https://www.meetup.com/Learning-New-Programming-Languages/"
 
 # Does the project detail page use math formatting?
 math = false
