@@ -1,7 +1,7 @@
 +++
 date = "2017-08-01T12:00:00"
 draft = false
-tags = ["academic", "hugo"]
+tags = ["UI", "Course Review"]
 title = "A Review of the Science Of Great UI"
 math = true
 summary = """

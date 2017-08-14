@@ -1,7 +1,7 @@
 +++
 date = "2017-08-13T12:00:00"
 draft = false
-tags = ["academic", "hugo"]
+tags = ["Caching", "Memoization", "Redis"]
 title = "Caching, Memoization, and Redis"
 math = true
 summary = """

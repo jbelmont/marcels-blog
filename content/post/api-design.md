@@ -1,7 +1,7 @@
 +++
 date = "2017-02-10T12:00:00"
 draft = false
-tags = ["academic", "hugo"]
+tags = ["API", "Design"]
 title = "A Review of Little Manual of API Design paper"
 math = true
 summary = """

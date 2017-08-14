@@ -1,7 +1,7 @@
 +++
 date = "2017-04-10T12:00:00"
 draft = false
-tags = ["academic", "hugo"]
+tags = ["academic", "paper"]
 title = "A Review of No Silver Bullet paper"
 math = true
 summary = """
