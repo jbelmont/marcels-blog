@@ -31,6 +31,7 @@ Deep Dive into OWASP Top 10 and Software Security
     * [OWASP Member Portal](#owasp-member-portal)
     * [OWASP Top 10](#owasp-top-10)
     * [OWASP Top 10 comparsion table for 2013 vs 2017](#owasp-top-10-comparison-table-for-2013-vs-2017)
+* [Github Repository](#github-repository)
 
 ##  Software Security
 
@@ -87,7 +88,7 @@ Application security (post-deployment) activities include:
 
 Objective of Language-based security:
 
-* Preven common programming errors such as allowing buffer overflows and illegal information flows to occur
+* Prevent common programming errors such as allowing buffer overflows and illegal information flows to occur
 * Provide some proof to the consumer about the security properties of the software
     * Helps the consumer trust the software without having to check source code for errors.
 
@@ -240,3 +241,7 @@ OWASP Top 10 Most Critical Web Application Security Risks (in the Release Candid
 | App Specific | Easy | Widespread | Easy | Severe | App/Business Specific |
 | App Specific | Average | Common | Average | Moderate | App/Business Specific |
 | App Specific | Difficult | Uncommon | Difficult | Minor | App/Business Specific |
+
+## Github Repository
+
+If you like this information then please star this repository on Github at [Software Security](https://github.com/jbelmont/software-security)
