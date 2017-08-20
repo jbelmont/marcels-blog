@@ -1,5 +1,5 @@
 +++
-date = "2016-12-07T00:00:00"
+date = "2017-02-16T00:00:00"
 title = "Building and Testing ReactJS apps"
 abstract = ""
 abstract_short = ""
