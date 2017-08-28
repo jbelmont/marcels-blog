@@ -55,7 +55,7 @@ image = ""
 * Testing Tools are introduced in the chapter
   * JUnit and JMock are mentioned
 * JavaScript Test Runners like `ava.js`, `mocha.js`, and `jest`
-* `sinon.js`, and ``testdouble.js` serve as mocking libraries
+* `sinon.js`, and `testdouble.js` serve as mocking libraries
 * Test Fixtures are mentioned in this chapter as well
 
 ## Kick-Starting the Test-Driven Cycle
