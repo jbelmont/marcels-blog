@@ -12,7 +12,7 @@ math = true
 
 url_pdf = ""
 url_slides = "https://jbelmont.github.io/containerized-golang-and-vuejs/#/"
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=PT8alMw3GFI&list=PL-G5r6j4GptGMQWj0ph4FaZqiBnIU9leu&index=6"
 url_code = "https://github.com/jbelmont/containerized-golang-and-vuejs"
 
 # Optional featured image (relative to `static/img/` folder).
