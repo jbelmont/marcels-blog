@@ -41,7 +41,7 @@ nest.test('Unit test the map function', assert => {
 });
 ```
 
-####For a typical unit test I usually create 2 variables one named actual and another named expect
+#### For a typical unit test I usually create 2 variables one named actual and another named expect
 *For `assert.equal(actual, expected, 'My message here')` if actual and expected are equal then the unit test will pass.*
 
 The map function behaves in the following manner
@@ -185,7 +185,7 @@ Postman-Token: f3413251-c0de-69ac-99dd-992bcaaca3bd
 
 *The Super Test library api docs can be found here [SuperTest](https://visionmedia.github.io/superagent)*
 
-####Hints to complete the exercise:
+#### Hints to complete the exercise:
 *1. Use post method in supertest*
 *2. Use set method in supertest and pass in object with Accept and Content-Type headers.*
 *3. Use send method in supertest and pass in object with a name and document property.*
@@ -212,7 +212,7 @@ curl -X POST -H "Accept: application/json" -H "Content-Type: application/json" -
 
 *The Super Test library api docs and rest methods can be found here [SuperTest](https://visionmedia.github.io/superagent/#request-basics)*
 
-####Hints to complete the exercise:
+#### Hints to complete the exercise:
 *1. Use appropriate supertest method to remove document.*
 *2. Make assertion with the returned status code (204) is usual status for DELETE request.*
 
@@ -584,7 +584,7 @@ Test spies are useful to test both callbacks and how certain functions/methods a
 
 **Open program.test.js in `mocks-stubs-spies` folder**
 
-####1. Stub the `retrieveDocument` function
+#### 1. Stub the `retrieveDocument` function
 ```javascript
 function retrieveDocument({dbName, name}) {
     const couchDBName = nano.use(dbName);
@@ -603,7 +603,7 @@ You don't need the implementation here but I included it here for your reference
 Using Sinon check that the retrieveDocument stub is called once.
 Make an assertion that the payload and the expected response match.
 
-####2. Stub the `insertDocument` function.
+#### 2. Stub the `insertDocument` function.
 
 ```javascript
 function insertDocument({ dbName = 'softwaretesting', name = 'users', body } = {}) {
@@ -637,9 +637,9 @@ function insertDoc({dbName, name, body}) {
 * Use sinon to make some assertions about the stubbed out function
 * Remember to use the setup function in tape or the before block in mocha to initialize the stub.
 
-####3. Stub out the `deleteDocument` function
+#### 3. Stub out the `deleteDocument` function
 
-######Implementation Details
+###### Implementation Details
 ```javascript
 function retrieveDoc({dbName, name}) {
     return new Promise((resolve, reject) => {
