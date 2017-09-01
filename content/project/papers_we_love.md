@@ -16,10 +16,18 @@ image_preview = "papersWeLove.jpeg"
 tags = ["papers-we-love"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://paperswelove.org/raleigh-durham/"
+external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
+
+url_pdf = ""
+url_code = ""
+url_dataset = ""
+url_github_org = "https://github.com/papers-we-love/raleigh-durham"
+url_meetup_group = "https://www.meetup.com/Papers-We-Love-Raleigh-Durham/"
+url_slides = "http://paperswelove.org/raleigh-durham/"
+url_video = ""
 
 +++
 

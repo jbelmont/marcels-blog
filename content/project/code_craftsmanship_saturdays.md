@@ -13,13 +13,18 @@ summary = "A Meetup based on the Code Retreat Model"
 tags = ["code-craftsmanship-saturdays"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/Code-Craftsmanship-Saturdays"
+external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
 
-## Link to the Github Organization
-ghOrg = "https://github.com/Code-Craftsmanship-Saturdays"
+url_pdf = ""
+url_code = ""
+url_dataset = ""
+url_github_org = "https://github.com/Code-Craftsmanship-Saturdays"
+url_meetup_group = "https://www.meetup.com/Code-Craftsmanship-Saturdays/"
+url_slides = "#"
+url_video = ""
 
 +++
 
