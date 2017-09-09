@@ -21,9 +21,9 @@ math = false
 url_pdf = ""
 url_code = ""
 url_dataset = ""
-url_github_org = "#"
+url_github_org = ""
 url_meetup_group = "https://www.meetup.com/Learning-New-Programming-Languages/"
-url_slides = "#"
+url_slides = ""
 url_video = ""
 
 +++

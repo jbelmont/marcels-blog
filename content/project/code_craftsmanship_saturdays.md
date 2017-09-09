@@ -23,7 +23,7 @@ url_code = ""
 url_dataset = ""
 url_github_org = "https://github.com/Code-Craftsmanship-Saturdays"
 url_meetup_group = "https://www.meetup.com/Code-Craftsmanship-Saturdays/"
-url_slides = "#"
+url_slides = ""
 url_video = ""
 
 +++
