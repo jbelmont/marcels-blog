@@ -1,0 +1,5 @@
+dist: trusty
+sudo: required
+language: none
+
+after_script: bash scripts/publish_to_gh_pages.sh

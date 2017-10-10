@@ -1,6 +1,7 @@
----
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-draft: true
----
-
++++
+layout = "post"
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+subtitle = ""
+date = {{ .Date }}
+summary = ""
++++
