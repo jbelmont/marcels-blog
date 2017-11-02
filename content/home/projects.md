@@ -26,12 +26,8 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Code Saturdays"
+  name = "Code Craftsmanship Saturdays"
   tag = ".code-craftsmanship-saturdays"
-
-[[filter]]
-  name = "Programming Languages"
-  tag = ".learning-new-programming-languages"
 
 [[filter]]
 name = "Papers We Love"
