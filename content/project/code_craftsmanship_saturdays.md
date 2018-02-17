@@ -123,4 +123,4 @@ A workshop looking at Software Testing. In this workshop we will look at the fol
 {{< button-link "https://www.marcelbelmont.com/software-testing/" "Book" >}}
 {{< button-link "https://github.com/jbelmont/software-testing" "Code" >}}
 
-**Please look at more workshops in my github handle `jbelmont`**
+**If you like the workshops then please follow me on github my handle is `jbelmont`**
