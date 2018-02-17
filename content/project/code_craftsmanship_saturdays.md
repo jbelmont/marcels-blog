@@ -54,8 +54,17 @@ In this workshop we take a deep dive into data visualization concepts and d3.js.
 
 In this workshop we take a deep dive into Unix Programming, Shell Scripting, and Regular Expressions. We will look at how to use Bash/Zsh, Sed, Awk and other Unix/Linux Tools and how to compose commands in unix and discuss the Unix Philosophy. We will also look at using programming languages such as node.js and golang to write command line applications.
 
-{{< button-link "https://www.marcelbelmont.com/unix-programming-and-regular-expressions-workshop/" "Book" >}}
+{{< button-link "http://www.marcelbelmont.com/golang-workshop/" "Book" >}}
 {{< button-link "https://github.com/jbelmont/unix-programming-and-regular-expressions-workshop" "Code" >}}
+
+### Golang Workshop
+
+In this workshop we explore the Go Programming language. This workshop has a series of koans that you must complete.
+Essentially there is failing tests and you must figure out what is wrong with the code to fix the failing tests.
+You will learn about slices, maps, structs, testing and more in Golang in this workshop.
+
+{{< button-link "https://www.marcelbelmont.com/unix-programming-and-regular-expressions-workshop/" "Book" >}}
+{{< button-link "https://github.com/jbelmont/golang-workshop" "Code" >}}
 
 ### Docker and Containers Workshop
 
