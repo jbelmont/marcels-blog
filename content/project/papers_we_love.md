@@ -62,7 +62,7 @@ This is a special Papers We Love session where Fred Brooks the author of the Pap
 
 This session discusses the `QuickCheck Testing for Fun and Profit` paper. Most of the examples in the paper are written in Haskell but the concepts for Quick Check Property Based Testing apply to other languages as well.
 
-{< button-link "https://www.meetup.com/Papers-We-Love-Raleigh-Durham/events/237701408/" "Meetup Event" >}}
+{{< button-link "https://www.meetup.com/Papers-We-Love-Raleigh-Durham/events/237701408/" "Meetup Event" >}}
 {{< button-link "http://paperswelove.org/raleigh-durham/docs/quickcheck/quickcheck.html" "Paper Notes" >}}
 {{< button-link "https://github.com/jbelmont/quickcheck-patterns-in-javascript" "Quick Check Patterns in JS" >}}
 {{< button-link "https://github.com/jbelmont/quickcheck_elixir" "Quick Check Patterns in Elixir" >}}
@@ -73,7 +73,7 @@ This session is on `The little Manual of API Design` written by Jasmin Blanchett
 
 We will utilize an api I built according to the strategies laid out in the paper.
 
-{< button-link "https://www.meetup.com/Papers-We-Love-Raleigh-Durham/events/237139012/" "Meetup Event" >}}
+{{< button-link "https://www.meetup.com/Papers-We-Love-Raleigh-Durham/events/237139012/" "Meetup Event" >}}
 {{< button-link "http://paperswelove.org/raleigh-durham/docs/api_design/api-design-notes.html" "Paper Notes" >}}
 
 ### Learn how to read an Academic/Scientific paper
