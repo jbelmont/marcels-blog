@@ -42,4 +42,4 @@ weight = 1
 
 # Biography
 
-Jean-Marcel Belmont is a Senior Software Engineer at FoodLogiQ. He is an organizer of 2 different meetups. He is also a former 82nd Airborne Paratrooper and combat veteran. He enjoys teaching others about Software Craftsmanship and spending time with his beautiful family. He loves nature and spending time learning new things in technology. He is also a Christian, father and husband to a beautiful wife.
+Jean-Marcel Belmont is a Senior Software Engineer at FoodLogiQ. He is an organizer of the Code Craftsmanship Saturdays Meetup and created a Papers We Love Chapter in Raleigh-Durham. He is also a former 82nd Airborne Paratrooper and combat veteran. He enjoys teaching others about Software Craftsmanship and spending time with his beautiful family. He loves nature and spending time learning new things in technology. He is also a Christian, father and husband to a beautiful wife.
