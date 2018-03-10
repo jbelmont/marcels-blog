@@ -43,6 +43,13 @@ url_video = ""
 
 ## Workshops
 
+### API Workshop
+
+In this workshop we take a deep dive into API Development using Restful API Concepts. We explore Restful API Architecture Patterns and how to test an API using tools like Postman and Curl as well as talk about the elements of Rest as first explained by Dr. Roy Fielding in his dissertation. We will also look at API Security concepts mainly OAuth and OpenID but we will also discuss ideas such as 2 legged Auth and 3 legged Auth. We will also look at tools such as OpenAPI (Swagger) and RAML which are API Description languages for REST APIs. We will also briefly discuss GraphQL.
+
+{{< button-link "https://www.marcelbelmont.com/api-workshop/" "Book" >}}
+{{< button-link "https://github.com/jbelmont/api-workshop" "Code" >}}
+
 ### Data Visualization Workshop
 
 In this workshop we take a deep dive into data visualization concepts and d3.js. The intent for this workshop is to outline what data visualization is and how to use d3.js to create visualizations.
