@@ -196,6 +196,37 @@ npm run acceptance:tests
 0m00.001s
 ```
 
+Here is the npm script `acceptance:tests`:
+
+```js
+{
+  "name": "cucumber-examples",
+  "version": "1.0.0",
+  "description": "A repo exploring Behavior Driven Development with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "acceptance:tests": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbelmont/cucumber-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbelmont/cucumber-examples/issues"
+  },
+  "homepage": "https://github.com/jbelmont/cucumber-examples#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1"
+  }
+}
+```
+
+Notice that the scripts block is where the script is run.
+
 ## Incorporate Tests into a CI/CD Pipeline
 
 In order to incorporate cucumber into a CI/CD pipeline you will need to choose a CI/CD tool. For the purposes of this blog post we will use Travis CI.
@@ -219,5 +250,7 @@ Notice that the script part is `npm run acceptance:tests` it is defined in the p
 ## Final Thoughts
 
 This example while trivial is a good illustration on why using a tool like cucumber is really useful to test your Acceptance Requirements in a programmatic way.
+
+If you would like to look at the [Cucumber Examples Repo Go Here](https://github.com/jbelmont/cucumber-examples)
 
 If you like this blog post then please follow me at [jbelmont at Github](https://github.com/jbelmont)
