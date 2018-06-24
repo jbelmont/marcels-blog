@@ -1,9 +1,8 @@
 +++
 draft = false
 title = "Browser Automation"
-subtitle = ""
 tags = ["testing", "e2e", "automation"]
-date = 2018-06-24T15:48:12-05:00
+date = "2018-06-24T12:00:00"
 math = true
 summary = """
 End to End Testing with Cypress.io and Puppeteer
