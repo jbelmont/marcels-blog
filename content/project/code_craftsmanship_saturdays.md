@@ -54,14 +54,14 @@ In this workshop we take a deep dive into API Development using Restful API Conc
 
 In this workshop we take a deep dive into data visualization concepts and d3.js. The intent for this workshop is to outline what data visualization is and how to use d3.js to create visualizations.
 
-{{< button-link "https://www.marcelbelmont.com/docker-workshop/" "Book" >}}
+{{< button-link "https://www.marcelbelmont.com/data-visualization-workshop" "Book" >}}
 {{< button-link "https://github.com/jbelmont/data-visualization-workshop" "Code" >}}
 
 ### Unix and Regular Expressions Workshop
 
 In this workshop we take a deep dive into Unix Programming, Shell Scripting, and Regular Expressions. We will look at how to use Bash/Zsh, Sed, Awk and other Unix/Linux Tools and how to compose commands in unix and discuss the Unix Philosophy. We will also look at using programming languages such as node.js and golang to write command line applications.
 
-{{< button-link "http://www.marcelbelmont.com/golang-workshop/" "Book" >}}
+{{< button-link "http://www.marcelbelmont.com/unix-programming-and-regular-expressions-workshop" "Book" >}}
 {{< button-link "https://github.com/jbelmont/unix-programming-and-regular-expressions-workshop" "Code" >}}
 
 ### Golang Workshop
@@ -70,14 +70,14 @@ In this workshop we explore the Go Programming language. This workshop has a ser
 Essentially there is failing tests and you must figure out what is wrong with the code to fix the failing tests.
 You will learn about slices, maps, structs, testing and more in Golang in this workshop.
 
-{{< button-link "https://www.marcelbelmont.com/unix-programming-and-regular-expressions-workshop/" "Book" >}}
+{{< button-link "https://www.marcelbelmont.com/golang-workshop" "Book" >}}
 {{< button-link "https://github.com/jbelmont/golang-workshop" "Code" >}}
 
 ### Docker and Containers Workshop
 
 In this workshop we take a deep dive into Docker and containers. The intent for this workshop is to outline what containers are, how they are used, and specifically look at using the docker cli. The workshop will go over the Dockerfile and docker-compose.yml script.
 
-{{< button-link "http://www.marcelbelmont.com/data-visualization-workshop/" "Book" >}}
+{{< button-link "http://www.marcelbelmont.com/docker-workshop" "Book" >}}
 {{< button-link "https://github.com/jbelmont/docker-workshop" "Code" >}}
 
 ### Software Security Workshop
@@ -100,15 +100,14 @@ This workshop looks at Caching and Memoization. In particular we will look at wa
 
 This workshop will go over Continuous Integration. Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing individuals/teams to detect problems early. We will go over concepts in Continuous Integrations as well as use several tools like Jenkins, Travis CI, and Circle CI.
 
-{{< button-link "https://www.marcelbelmont.com/continuous-integration-with-jenkins-travis-and-circleci/" "Book" >}}
+{{< button-link "https://www.marcelbelmont.com/continuous-integration-with-jenkins-travis-and-circleci" "Book" >}}
 {{< button-link "https://github.com/jbelmont/continuous-integration-with-jenkins-travis-and-circleci" "Code" >}}
 
 ### Single Sign On, SAML and OAuth Workshop
 
 This workshop will go over SSO (Single Sign-On). SSO (Single Sign On) occurs when a user logs in to one Client and is then signed in to other Clients automatically, regardless of the platform, technology, or domain the user is using. We will go over some SSO Strategies like SAML (Security Assertion Markup Language) and OAuth2 (Open Authorization). We will also go over JWT (JSON Web Token) which is an authentication protocol. We will create a JWT and go over the 3 parts of a JWT (Header, Payload, Signature).
 
-{{< button-link "https://marcelbelmont.com/software-security" "Book" >}}
-{{< button-link "https://github.com/jbelmont/sso-with-oauth-and-saml" "Code" >}}
+{{< button-link "https://github.com/jbelmont/sso-with-oauth-and-saml" "Code and Docs" >}}
 
 ### SOLID Principles, Dry Concepts, YAGNI, and Pragmatic Programmer Workshop
 
