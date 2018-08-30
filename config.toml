@@ -11,6 +11,9 @@ disqusShortname = "marcelbelmont-com"
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-118360144-1"
 
+# Enable Google Adsense
+googleAdSense = "ca-pub-1624619104728238"
+
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
