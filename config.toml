@@ -138,6 +138,20 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//github.com/jbelmont"
 
+  # Configuration of publication pages.
+  [params.publications]
+    # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+    #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+    date_format = "January, 2006"
+
+    # Publication list format.
+    #   0 = Simple
+    #   1 = Detailed
+    #   2 = APA
+    #   3 = MLA
+    publication_format = 0
+
+
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -160,14 +174,19 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 4
+
+[[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 4
+  weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
+  weight = 6
 
 # Taxonomies.
 [taxonomies]
