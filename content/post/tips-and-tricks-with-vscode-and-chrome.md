@@ -1,11 +1,11 @@
 +++
 draft = false
-title = "Tips and Tricks With VS Code and Chrome"
-tags = ["editor", "chrome"]
+title = "Tips and Tricks With VS Code"
+tags = ["editor"]
 date = "2018-09-23T19:09:59-04:00"
 math = true
 summary = """
-Tips and Tricks With VS Code and Chrome
+Tips and Tricks With VS Code
 """
 +++
 
