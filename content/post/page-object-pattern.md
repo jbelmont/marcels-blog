@@ -155,4 +155,6 @@ Here is a list of End to End Testing libraries that have them:
 * [Webdriverio Page Object](http://webdriver.io/guide/testrunner/pageobjects.html)
 * [Selenium Page Objects](https://github.com/SeleniumHQ/selenium/wiki/PageObjects)
 
+*Please read the following article [Introduction to WebDriver & Comparison with Selenium RC](https://www.guru99.com/introduction-webdriver-comparison-selenium-rc.html) by guru99 to get a more in-depth look at WebDriver.*
+
 If you like this post then follow me at [jbelmont at github](https://github.com/jbelmont)
