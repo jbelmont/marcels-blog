@@ -2,7 +2,7 @@
 draft = false
 title = "A review of Hands On Continuous Integration and Delivery Book"
 tags = ["editor"]
-date = "2018-10-17T19:09:59-04:00"
+date = "2018-10-17T19:22:45-04:00"
 math = true
 summary = """
 Some fresh tips on Hands On Continuous Integration and Delivery Book
