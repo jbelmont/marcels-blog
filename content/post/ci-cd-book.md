@@ -11,21 +11,12 @@ Some fresh tips on Hands On Continuous Integration and Delivery Book
 
 # Hands-On Continuous Integration and Delivery
 
-On August 2018 my book [Hands On Continuous Integration and Delivery](https://www.packtpub.com/virtualization-and-cloud/hands-continuous-integration-and-delivery) was released on Packt Publishing and the book covers many aspects of Continuous Integration and Delivery.
-
-In particular the book covers how to use tools such as Jenkins, Travis and Circle CI with good CI/CD practices.
-
-The First 4 Chapters introduce the concepts of:
-
-* Continuous Integration
-* Continuous Delivery
-* Automation
-* The business impact of these 3 concepts in Software Development
+There are several terms that are important when trying to learn about Continuous Integration and Continuous Delivery:
 
 ## Definition of Automation
 
 Automation is essentially any task that is completed without human interaction.
-Let us say that you manually test a UI feature, if you write a script instead than it can be said that you have automated the task.
+Let us say that you manually test a UI feature, if you write a script instead of manually test it than it can be said that you have automated the task.
 
 ## Definition of Continuous Integration
 
@@ -74,8 +65,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''node --version
-npm install'''
+        sh 'npm install'
       }
     }
     stage('Cucumber Tests') {
@@ -89,13 +79,19 @@ npm install'''
 
 Here we create a series of stages with the first stage creating a docker image to setup our environment.
 
-The next stage we get our environment ready and in the last stage we run an acceptance test suite.
+Notice that the docker block has *image* for the docker image and *args* for the arguments which in this case specify the location of the data mount.
 
-There are many more features with Jenkins that I cover in great detail in my book this is just a little snippet.
+In the next stage of the pipeline we get our environment ready to build by issuing the command *npm install*
+
+In the last stage we run an acceptance test suite.
+
+Here is a screenshot of the Jenkins Pipeline:
+
+{{< figure src="/media/ci-cd-jenkins-pipeline.png" >}}
 
 ## Using Travis CI for CI/CD
 
-Travis CI is a hosted and automation solution for CI Builds. 
+Travis CI is a hosted and automated solution for CI Builds. 
 
 The main difference between Travis CI and Jenkins is that Jenkins is a self managed automation solution for CI/CD. You can configure Jenkins in a fully customized manner whereas Travis CI is generally used in open source software projects.
 
@@ -129,37 +125,54 @@ after_success:
   - if [ -n "$TRAVIS_TAG" ]; then curl -sL https://git.io/goreleaser | bash; fi
 ```
 
-Here we use the Golang Programming language and set some environment variables that will help us run some tasks in a Makefile that has the following content:
+Here is a breakdown of the travis yml script:
+
+In the *language* field we specify the programming language which is [Golang](https://golang.org/)
+
+In the *services* field we specify the services we expect the Travis Virtual Machine to start on each CI build for us.
+
+In the *go* field we specify the go version we want to use
+
+In the *os* field we specify the operating system we expect to use which can be mac or linux which you can read more about in [Travis Docs](https://docs.travis-ci.com/user/reference/osx/)
+
+In the *sudo* field you specify the following values:
+
+* required 
+  * You will get a fully virtualized environment
+* false
+  * You will get a container based environment
+
+In the *env* field we specify environment variables to be set for our CI build, which in this case consist of a *matrix* field which has the environment variables of **PORT** and **ENVIRONMENT**. The *global* field has an encrypted variable that we created with the travis cli.
+
+There are several lifecycle events that we can use in travis ci:
+
+#### before_install lifecycle event
+
+This event is useful when you want to set some values and/or install some dependencies before the actual default *install* lifecycle event
+
+#### install lifecycle event
+
+This event is done on every build and essentially gets the environment ready for use to run your tests, lint code and more.
+
+#### before_script lifecycle event
+
+This event is useful when you want to run some actions before the actual *script* lifecycle event.
+
+#### script lifecycle event
+
+This event will comprise the bulk of the actions you will do in your CI build
+
+#### after_success lifecycle event
+
+This event is used when you want to do some actions on a successful CI build.
+
+Notice that we are using Makefile tasks in the script section.
+
+## Makefile Contents
+
+Here are the contents of the makefile:
 
 ```Makefile
-BIN_DIR := "bin/apid"
-APID_MAIN := "cmd/apid/main.go"
-
-all: ensure lint test-cover
-
-ensure:
-				go get -u github.com/mattn/goveralls
-				go get -u github.com/philwinder/gocoverage
-				go get -u github.com/alecthomas/gometalinter
-				go get -u github.com/golang/dep/cmd/dep
-				go get -u golang.org/x/tools/cmd/cover
-				dep ensure
-
-lint:
-			gometalinter --install
-			gometalinter ./cmd/... ./internal/...
-
-compile: 	cmd/apid/main.go
-						CGO_ENABLED=0 go build -i -o ${BIN_DIR} ${APID_MAIN}
-
-test:
-			go test ./... -v
-
-test-cover:
-						go test ./... -cover
-
-## Travis automation scripts
-
 travis-install:
 								go get -u github.com/mattn/goveralls
 								go get -u github.com/philwinder/gocoverage
@@ -178,13 +191,11 @@ travis-script:
 								goveralls -coverprofile=profile.cov -repotoken=${COVERALLS_TOKEN}
 ```
 
-Notice that in the *.travis.yml* script we run the *travis-script* in the Makefile.
+In the *travis-install* makefile task we install all the golang library dependencies required for a CI build.
 
-Here we lint the codebase, run unit tests and compute code coverage and then finish by generating a code coverage report in the Coveralls service.
+In the *travis-script* makefile task we run a lint task, run tests, and push a code coverage report.
 
-There are many different ways to use Travis CI as well as its powerful CLI that I discuss in the book.
-
-## Using Travis CI for CI/CD
+## Using Circle CI for CI/CD
 
 Circle CI like Travis CI is a hosted and managed automation solution.
 
@@ -252,10 +263,22 @@ workflows:
 
 Notice that here we create several steps for the CI/CD build.
 
-In the first step we get the build environment setup and then we run a suite of acceptance tests inand then finally deploy our Build to Heroku!
+This is using a yaml syntax like Travis CI with different fields obviously.
 
-I cover many more aspects of Circle CI in my book as well as using the cli.
+The *version* field is where we specify the particular version of Circle CI syntax.
 
-## Best Practices of CI/CD
+The *jobs* field is where we specify each job we want to run for Circle CI.
 
-In the final chapters of the book I cover best practices with CI/CD and how to manage secrets using [Vault by HashiCorp](https://www.vaultproject.io/)
+Using the *docker* field we can specify the particular docker images we need for our CI builds.
+
+The *workflows* field is where we can schedule the jobs to run.
+
+Here is a screenshot of the Circle CI build steps:
+
+{{< figure src="/media/ci-cd-circle-ci.png" >}}
+
+## Hands On Continuous Integration and Delivery
+
+You can read more about Continuous Integration and Delivery by reading my books:
+
+[Hands On Continuous Integration and Delivery](https://www.packtpub.com/virtualization-and-cloud/hands-continuous-integration-and-delivery)
