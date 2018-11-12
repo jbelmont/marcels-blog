@@ -193,8 +193,15 @@ This subsection's content...
 This subsubsection's content...
 ```
 
+## Getting started with Travis CI
 
+If you want to get setup with Travis CI please read this blog post: 
 
+https://harshjv.com/blog/setup-latex-pdf-build-using-travis-ci/
+
+## Getting overall advice on LaTex
+
+Please read this very informative Github Repo on [LaTex](https://github.com/dspinellis/latex-advice)
 
 ## Different Types of File Types in LaTex
 
