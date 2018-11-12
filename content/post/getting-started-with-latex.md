@@ -235,6 +235,10 @@ There are a myriad of different file types that LaTex can work with:
 
 Please read the following [LaTex Wiki Book](https://en.wikibooks.org/wiki/LaTeX)
 
+## LaTex Workshop
+
+I will be building a LaTex workshop that you can follow if you wish [Here](https://github.com/jbelmont/latex-workshop)
+
 ## How to find me
 
 If you like this blog post then please follow me at [jbelmont @ github](https://github.com/jbelmont) and [jbelmont80 @ twitter](https://twitter.com/jbelmont80)
