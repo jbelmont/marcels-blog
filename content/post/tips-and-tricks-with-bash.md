@@ -118,6 +118,32 @@ done
 
 Here we create 2 lists and use an associative arrays that get a key in each loop of this script.
 
+We can write a more concise solution using IFS which is the internal field separator and using readarray.
+
+readarray: Read lines from a file into an array variable.
+
+We can also use here string.
+
+Here is a more concise example using bash 4:
+
+```bash
+#! /usr/local/bin/bash
+
+IFS=$'\n'
+WORDS=$(pbpaste)
+readarray -t y <<< "$WORDS"
+
+for word in $WORDS
+do
+  TEXT_INSIDE_PARENS=$(echo $word | sed 's/ /_/g' | tr '[:upper:]' '[:lower:]')
+  printf "[%s](#%s)\n" $word $TEXT_INSIDE_PARENS
+done
+```
+
+In the script above we put the system clipboard contents from pbpaste into the WORDS variable.
+We then use the readarray builtin and here strings to create an array bash variable.
+We then loop over words and create a running TEXT_INSIDE_PARENS variable and use the printf command.
+
 If you like this blog post you can read more about unix programming in my free gitbook [Unix Programming and Regular Expressions](https://www.marcelbelmont.com/unix-programming-and-regular-expressions-workshop/)
 
 Please follow me at [jbelmont @ github](https://github.com/jbelmont) and [jbelmont80 @ twitter](https://twitter.com/jbelmont80)
