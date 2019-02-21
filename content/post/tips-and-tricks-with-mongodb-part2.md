@@ -114,6 +114,52 @@ Now in the mongo shell we can look at our newest documents that we have added:
 
 {{< figure src="/media/new-numbers-in-collection.png" >}}
 
+## Adding global configuration with ~/.mongorc.js
+
+I have the following defined in my *~/.mongorc.js*:
+
+```js
+DBQuery.prototype._prettyShell = true
+DBQuery.prototype.unpretty = function () {
+    this._prettyShell = false;
+    return this;
+}
+currentDir = pwd()
+currentDir = currentDir.split("/").slice(0, -1).join("/")
+callScript = function(script_name) {
+    load(`${currentDir}/playground/scripts/${script_name}`);
+}
+```
+
+So from the top I have defined pretty print to be the default and have created a function called unpretty to get the regular behavior.
+
+Notice that we can define functions in JavaScript and we can use ESNext Features in JavaScript.
+
+I created a custom function called callScript that calls the load script function but takes an argument for the script name and looks at your current shell path.
+
+Looks like at a live example using the callScript command and a new JavaScript file:
+
+```js
+"use strict";
+
+let ids = [];
+for (let i = 0; i < 10; i++) {
+    let objectId = new objectId()
+    ids.push({
+        _id: objectId
+    });
+}
+printjson(ids);
+```
+
+Here we create an array of objects with ObjectIds in the mongo shell.
+
+Here is an example session in the mongo shell:
+
+{{< figure src="/media/array-of-objectids.png" >}}
+
+Notice here that we called the javascript file without passing a path because we have defined the script path location in the callScript function definition already.
+
 There is a lot more you can do with scripts if you use your imagination :)
 
 Please follow me at [jbelmont @ github](https://github.com/jbelmont) and [jbelmont80 @ twitter](https://twitter.com/jbelmont80)
