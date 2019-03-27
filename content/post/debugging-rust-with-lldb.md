@@ -190,6 +190,28 @@ We can unset our breakpoints like this:
 
 {{< figure src="/media/delete-breakpoint.png" >}}
 
+## Using help in lldb
+
+You can find about the available command in lldb by running help:
+
+{{< figure src="/media/lldb-debugger-help.png" >}}
+
+You can also get help on each particular command by running help like:
+
+*help subcommand*
+
+{{< figure src="/media/lldb-help-command.png" >}}
+
+Some commands have subcommands like the breakpoint command which you can get help on:
+
+{{< figure src="/media/lldb-subcommand-help.png" >}}
+
+Some commands have aliases that you can run like b for breakpoint and more.
+
+*A great feature of the lldb debugger is that there is autocomplete that you can invoke by simply pressing the tab character*
+
+All in all I would say rust-lldb is a great addition to debugging rust programs.
+
 There is a whole more you can do with lldb and please read the official [lldb documentation for more](https://lldb.llvm.org/tutorial.html)
 
 Please follow me at [jbelmont @ github](https://github.com/jbelmont) and [jbelmont80 @ twitter](https://twitter.com/jbelmont80)
