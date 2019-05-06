@@ -43,6 +43,13 @@ url_video = ""
 
 ## Workshops
 
+### NoSQL Workshop
+
+In this workshop, we take a look at NoSQL databases. NoSQL encompasses a wide variety of different database technologies that were developed in response to the demands presented in building modern applications in that developers are working with applications that create massive volumes of new, rapidly changing data types — structured, semi-structured, unstructured and polymorphic data. We will as always combine theory with application in the workshop. We will use MongoDB as our Document Database and will examine concepts in Data Modeling and do a brief comparison between NoSQL and SQL Databases.
+
+{{< button-link "https://www.marcelbelmont.com/nosql-workshop/" "Book" >}}
+{{< button-link "https://github.com/jbelmont/nosql-workshop" "Code" >}}
+
 ### API Workshop
 
 In this workshop we take a deep dive into API Development using Restful API Concepts. We explore Restful API Architecture Patterns and how to test an API using tools like Postman and Curl as well as talk about the elements of Rest as first explained by Dr. Roy Fielding in his dissertation. We will also look at API Security concepts mainly OAuth and OpenID but we will also discuss ideas such as 2 legged Auth and 3 legged Auth. We will also look at tools such as OpenAPI (Swagger) and RAML which are API Description languages for REST APIs. We will also briefly discuss GraphQL.
