@@ -1,0 +1,7 @@
+honda           civic       2005        60000       3   first:car:yep
+chevy           silverado   2016        33000       2   second:car:nope
+chevy           tavera      1999        10000       4   third:car:nope
+toyota          corolla     1995        95000       2   second:car:yep
+ford            escape      2012        80000       1   last:car:nope
+honda           accord      2000        60000       2   fourth:car:nope
+fiat            punto       2007        45000       3   fifth:truck:yep
