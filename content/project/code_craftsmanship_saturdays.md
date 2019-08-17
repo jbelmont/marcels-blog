@@ -93,22 +93,22 @@ A workshop looking at Software security and specifically the OWASP top 10.
 
 In this workshop we discuss many different concepts laid out in the [OWASP Website](https://www.owasp.org/index.php/Main_Page)
 
-{{< button-link "https://marcelbelmont.com/software-security" "Book" >}}
-{{< button-link "https://github.com/jbelmont/software-security" "Code" >}}
+{{< button-link "https://marcelbelmont.com/software-security-workshop" "Book" >}}
+{{< button-link "https://github.com/jbelmont/software-security-workshop" "Code" >}}
 
 #### Caching, Memoization, and Redis Workshop
 
 This workshop looks at Caching and Memoization. In particular we will look at ways to implement caching/memoization in JavaScript. Along with caching we will look at local storage mechanisms that you can use in the browser. We will also look at server side caching in Node.js and will introduce Redis and some ways to cache using Redis.
 
-{{< button-link "http://www.marcelbelmont.com/caching-and-memoization/" "Book" >}}
-{{< button-link "https://github.com/jbelmont/caching-and-memoization" "Code" >}}
+{{< button-link "http://www.marcelbelmont.com/caching-and-memoization-workshop" "Book" >}}
+{{< button-link "https://github.com/jbelmont/caching-and-memoization-workshop" "Code" >}}
 
 ### Continuous Integration Workshop
 
 This workshop will go over Continuous Integration. Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing individuals/teams to detect problems early. We will go over concepts in Continuous Integrations as well as use several tools like Jenkins, Travis CI, and Circle CI.
 
-{{< button-link "https://www.marcelbelmont.com/continuous-integration-with-jenkins-travis-and-circleci" "Book" >}}
-{{< button-link "https://github.com/jbelmont/continuous-integration-with-jenkins-travis-and-circleci" "Code" >}}
+{{< button-link "https://www.marcelbelmont.com/continuous-integration-with-jenkins-travis-and-circleci-workshop" "Book" >}}
+{{< button-link "https://github.com/jbelmont/continuous-integration-with-jenkins-travis-and-circleci-workshop" "Code" >}}
 
 ### Single Sign On, SAML and OAuth Workshop
 
