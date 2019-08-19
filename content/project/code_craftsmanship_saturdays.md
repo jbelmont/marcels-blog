@@ -68,7 +68,7 @@ In this workshop we take a deep dive into data visualization concepts and d3.js.
 
 In this workshop we take a deep dive into Unix Programming, Shell Scripting, and Regular Expressions. We will look at how to use Bash/Zsh, Sed, Awk and other Unix/Linux Tools and how to compose commands in unix and discuss the Unix Philosophy. We will also look at using programming languages such as node.js and golang to write command line applications.
 
-{{< button-link "http://www.marcelbelmont.com/unix-programming-and-regular-expressions-workshop" "Book" >}}
+{{< button-link "https://www.marcelbelmont.com/unix-programming-and-regular-expressions-workshop" "Book" >}}
 {{< button-link "https://github.com/jbelmont/unix-programming-and-regular-expressions-workshop" "Code" >}}
 
 ### Golang Workshop
@@ -84,7 +84,7 @@ You will learn about slices, maps, structs, testing and more in Golang in this w
 
 In this workshop we take a deep dive into Docker and containers. The intent for this workshop is to outline what containers are, how they are used, and specifically look at using the docker cli. The workshop will go over the Dockerfile and docker-compose.yml script.
 
-{{< button-link "http://www.marcelbelmont.com/docker-workshop" "Book" >}}
+{{< button-link "https://www.marcelbelmont.com/docker-workshop" "Book" >}}
 {{< button-link "https://github.com/jbelmont/docker-workshop" "Code" >}}
 
 ### Software Security Workshop
@@ -100,7 +100,7 @@ In this workshop we discuss many different concepts laid out in the [OWASP Websi
 
 This workshop looks at Caching and Memoization. In particular we will look at ways to implement caching/memoization in JavaScript. Along with caching we will look at local storage mechanisms that you can use in the browser. We will also look at server side caching in Node.js and will introduce Redis and some ways to cache using Redis.
 
-{{< button-link "http://www.marcelbelmont.com/caching-and-memoization-workshop" "Book" >}}
+{{< button-link "https://www.marcelbelmont.com/caching-and-memoization-workshop" "Book" >}}
 {{< button-link "https://github.com/jbelmont/caching-and-memoization-workshop" "Code" >}}
 
 ### Continuous Integration Workshop
