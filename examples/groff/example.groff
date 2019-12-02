@@ -1,0 +1,38 @@
+\" paragraph request
+.pp
+You can make a paragraph like this:
+\" bulleted lists start with .bu
+.bu
+Rocky
+.bu
+Rambo
+.bu
+Snake
+.pp
+Start a numbered list:
+.np
+I am the alpha
+.np
+and
+.np
+the omega
+.pp
+Any numbered lists are reset on the next occurrence of .pp
+.pp
+I am going to 
+.b "bold this text"
+and I am going to 
+.i "italicize this text"
+and I will 
+.bu "bold and italicize"
+this text
+.(l
+Shine Shoes
+Cut Hair
+Get Dressed
+.)l
+.ps 24
+I am large text
+.ps 6 
+I am tiny text
+You can quote text using `\*(lqMy Text is quoted.\*(rq`
