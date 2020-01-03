@@ -43,6 +43,13 @@ url_video = ""
 
 ## Workshops
 
+### Rust Workshop
+
+In this workshop we will explore the Rust Language which is a very powerful programming language that helps write both reliable and efficient software. Rust is gaining lots of traction and recently Microsoft has announced that they will start using Rust as a replacement to the C and C++ Programming languages for both the security benefits that come with a memory safe language such as Rust and because of the great tooling and developer ergonomics inherent in Rust.
+
+{{< button-link "https://www.marcelbelmont.com/rustlang-workshop/" "Book" >}}
+{{< button-link "https://github.com/jbelmont/rustlang-workshop" "Code" >}}
+
 ### NoSQL Workshop
 
 In this workshop, we take a look at NoSQL databases. NoSQL encompasses a wide variety of different database technologies that were developed in response to the demands presented in building modern applications in that developers are working with applications that create massive volumes of new, rapidly changing data types — structured, semi-structured, unstructured and polymorphic data. We will as always combine theory with application in the workshop. We will use MongoDB as our Document Database and will examine concepts in Data Modeling and do a brief comparison between NoSQL and SQL Databases.
