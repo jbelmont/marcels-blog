@@ -20,12 +20,12 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Jean-Marcel Belmont"
-  role = "Senior Software Engineer"
+  role = "Software Journeyman"
   organization = "FoodLogiQ"
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "marcelbelmont@gmail.com"
+  avatar = "headshot.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "marcelbelmont at gmail.com"
   address = ""
   office_hours = ""
   phone = ""
