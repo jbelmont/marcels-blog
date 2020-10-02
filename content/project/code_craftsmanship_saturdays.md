@@ -45,7 +45,7 @@ url_video = ""
 
 ### Algorithms Workshop
 
-In this workshop, we will explore Data Structures and Algorithms. We will look at the history of Algorithms, different types of Algorithms. We will look at Pseudocode and the different types such as Pidgin Code. We will look at Big O Notation, learn about analysis of algorithms. We will also look at Math for Algoriths and look at different types of Data Structures. We will look at Sorting, Searchin, Graphing, String Algorithms, Linear and Dynamic Programming.
+In this workshop, we will explore Data Structures and Algorithms. We will look at the history of Algorithms, as well as different types of Algorithms. We will look at Pseudocode types such as Pidgin Code. We will look at Big O Notation, and learn about analysis of algorithms. We will look at Math for Algorithmss and look at different types of Data Structures such as Linear and Nonlinear Data Structures. We will look at Sorting, Searchin, Graphing, String Algorithms, Linear and Dynamic Programming.
 
 {{< button-link "https://www.marcelbelmont.com/algorithms-workshop/" "Book" >}}
 {{< button-link "https://github.com/jbelmont/algorithms-workshop" "Code" >}}
