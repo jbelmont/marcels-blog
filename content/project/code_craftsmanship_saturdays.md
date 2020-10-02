@@ -43,6 +43,13 @@ url_video = ""
 
 ## Workshops
 
+### Algorithms Workshop
+
+In this workshop, we will explore Data Structures and Algorithms. We will look at the history of Algorithms, different types of Algorithms. We will look at Pseudocode and the different types such as Pidgin Code. We will look at Big O Notation, learn about analysis of algorithms. We will also look at Math for Algoriths and look at different types of Data Structures. We will look at Sorting, Searchin, Graphing, String Algorithms, Linear and Dynamic Programming.
+
+{{< button-link "https://www.marcelbelmont.com/algorithms-workshop/" "Book" >}}
+{{< button-link "https://github.com/jbelmont/algorithms-workshop" "Code" >}}
+
 ### Rust Workshop
 
 In this workshop we will explore the Rust Language which is a very powerful programming language that helps write both reliable and efficient software. Rust is gaining lots of traction and recently Microsoft has announced that they will start using Rust as a replacement to the C and C++ Programming languages for both the security benefits that come with a memory safe language such as Rust and because of the great tooling and developer ergonomics inherent in Rust.
